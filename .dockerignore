@@ -1,0 +1,25 @@
+# Ignore all files and directories starting with a dot
+.*
+
+# Ignore build artifacts
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore development and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore logs and temporary files
+logs/
+tmp/

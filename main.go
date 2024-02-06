@@ -23,6 +23,10 @@ func main() {
 		log2.Info("Failed to log to file, using default stderr")
 	}
 
+	app.Get("/", func(c *fiber.Ctx) error {
+		return c.SendString("Hello, World!")
+	})
+
 	app.Get("/api/adjust/callback", func(c *fiber.Ctx) error {
 
 		// Get the query parameters
