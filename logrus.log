@@ -1,0 +1,6 @@
+time="2024-02-06T15:26:34+07:00" level=info msg="Received a request" Query Parameter=key Value=value
+time="2024-02-06T15:26:34+07:00" level=info msg="Received a request" Query Parameter=somekey Value=somevalue
+time="2024-02-06T15:26:34+07:00" level=info msg="Received a request" Query Parameter=somekey1 Value=somevalue1
+time="2024-02-06T15:26:36+07:00" level=info msg="Received a request" Query Parameter=key Value=value
+time="2024-02-06T15:26:36+07:00" level=info msg="Received a request" Query Parameter=somekey Value=somevalue
+time="2024-02-06T15:26:36+07:00" level=info msg="Received a request" Query Parameter=somekey1 Value=somevalue1
